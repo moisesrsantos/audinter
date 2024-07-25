@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "inter_metrics"
 version = "0.1.0"
-description = "Interpretability and complexity metrics ML models."
+description = "Interpretability and complexity metrics for ML models."
 authors = ["Antónia Brito"]
 license = "MIT"
 readme = "README.md"

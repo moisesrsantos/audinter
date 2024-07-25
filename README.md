@@ -1,6 +1,6 @@
 # inter_metrics
 
-Interpretability and complexity metrics ML models.
+Interpretability and complexity metrics for evaluating ML models.
 
 ## Installation
 

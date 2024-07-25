@@ -26,7 +26,7 @@ extensions = [
     "shap",
     "tensorflow",
     "torch",
-    "difflib" 
+    "diff-match-patch" 
 ]
 autoapi_dirs = ["../src"]
 
