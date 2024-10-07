@@ -6,7 +6,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u"inter_metrics"
+project = u"audinter"
 copyright = u"2024, Antónia Brito"
 author = u"Antónia Brito"
 

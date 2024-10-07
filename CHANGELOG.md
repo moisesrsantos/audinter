@@ -4,4 +4,4 @@
 
 ## v0.1.0 (25/07/2024)
 
-- First release of `inter_metrics`!
+- First release of `audinter`!

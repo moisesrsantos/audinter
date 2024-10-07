@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "inter_metrics"
+name = "audinter"
 version = "0.1.0"
 description = "Interpretability and complexity metrics for ML models."
 authors = ["Antónia Brito"]
