@@ -297,3 +297,22 @@ def cv_shap_score(model, test_dataset):
         description = "SHAP values cannot be calculated!"
         return None, description
 
+def all_metrics(model, dataset, test_dataset=None):
+    """
+    This function calculates all the explainability and complexity model auditing metrics available.
+
+    Parameters:
+        model (object): The machine learning model for which the metrics is to be calculated.
+        dataset (pandas.DataFrame): The input dataset containing features
+        test_dataset (pandas.DataFrame): The test data for the metrics which this parameter is required.
+
+    Returns:
+        tuple: All audinter metrics available.
+    """
+    return algorithm_class_score(model),\
+    correlated_features_score(dataset),\
+    model_size(model),\
+    feature_importance_score(model),\
+    cv_shap_score(model, test_dataset)
+
+
